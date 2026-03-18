@@ -7,36 +7,81 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <section id="hero" class="hero">
         <div class="container">
-            <h1>Shanuella</h1>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+            <h1>Building intuitive platforms and refining user experiences</h1>
+            <p>I'm Shanuella Ndoh — a Software Engineer Intern passionate about creating mobile apps and web apps, focusing on seamless, practical solutions.</p>
+            <div class="social-links">
+                <a href="https://ndohshanuella.github.io" target="_blank">GitHub</a>
+                <!-- Add more links if available -->
+            </div>
         </div>
-    </header>
+    </section>
 
     <section id="about" class="section">
         <div class="container">
             <div class="about-content">
                 <img src="images/pt.jpg" alt="Shanuella" class="profile-img">
                 <div class="about-text">
-                    <h2>About Me</h2>
-                    <p>I’m Shanuella, a software engineer intern at Codegisoft Academy, passionate about building intuitive platforms and refining user experiences. Skilled in full‑stack web development and UI/UX design, I focus on creating seamless, practical solutions that connect tech communities.</p>
+                    <h2>About</h2>
+                    <p>I am a passionate technology student with an interest in software development and networking, who gained practical experience during my internship at Codegisoft Academy. I worked on projects such as a portfolio and a mobile app, Codegisoft-Net, and I am eager to keep building my skills in the tech field.</p>
                 </div>
             </div>
         </div>
     </section>
 
+    <section id="why" class="section">
+        <div class="container">
+            <h2>Why Work With Me</h2>
+            <p>You get a reliable partner who can take a product from idea to production.</p>
+            <ul>
+                <li>End-to-end ownership: Frontend, backend, and more.</li>
+                <li>Security-first: Best practices to protect users.</li>
+            </ul>
+        </div>
+    </section>
+
     <section id="projects" class="section">
         <div class="container">
-            <h2>My Projects</h2>
-            <div id="projects-list" class="projects-grid">
-                <!-- Projects will be loaded here via JavaScript -->
+            <h2>Projects</h2>
+            <p>A selection of systems and products I've built.</p>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Parcel Tracking System</h3>
+                    <p>Full logistics tracking platform with live map, email notifications, admin dashboard and real-time updates.</p>
+                    <p>Tech: MERN, Node.js, MongoDB, JWT</p>
+                    <a href="#" target="_blank">Live</a> | <a href="#" target="_blank">GitHub</a>
+                </div>
+                <div class="project-card">
+                    <h3>E-Commerce Platform</h3>
+                    <p>Complete e-commerce system with payments, admin panel, inventory, orders, and user management.</p>
+                    <p>Tech: Node.js, Express, MongoDB, Stripe</p>
+                    <a href="#" target="_blank">Live</a> | <a href="#" target="_blank">GitHub</a>
+                </div>
+                <div class="project-card">
+                    <h3>Admin Dashboard</h3>
+                    <p>Role-based admin system with analytics, charts, reports and user management.</p>
+                    <p>Tech: MERN, RBAC, JWT, Chart.js</p>
+                    <a href="#" target="_blank">Live</a> | <a href="#" target="_blank">GitHub</a>
+                </div>
+                <div class="project-card">
+                    <h3>Task Management App</h3>
+                    <p>Collaborative task manager with real-time updates, drag & drop, and team features.</p>
+                    <p>Tech: React, Node.js, Socket.io, MongoDB</p>
+                    <a href="#" target="_blank">Live</a> | <a href="#" target="_blank">GitHub</a>
+                </div>
+                <div class="project-card">
+                    <h3>Weather Dashboard</h3>
+                    <p>Real-time weather app with forecasts, maps, and location-based services.</p>
+                    <p>Tech: React, API, Chart.js, Geolocation</p>
+                    <a href="#" target="_blank">Live</a> | <a href="#" target="_blank">GitHub</a>
+                </div>
+                <div class="project-card">
+                    <h3>Blog Platform</h3>
+                    <p>Full-stack blog with markdown support, comments, user authentication, and admin tools.</p>
+                    <p>Tech: MERN, Markdown, JWT, Cloudinary</p>
+                    <a href="#" target="_blank">Live</a> | <a href="#" target="_blank">GitHub</a>
+                </div>
             </div>
         </div>
     </section>
@@ -44,7 +89,7 @@
     <section id="contact" class="section">
         <div class="container">
             <h2>Contact</h2>
-            <p>Get in touch with me!</p>
+            <p>Send a message and I'll reply to you by email.</p>
             <form action="mailto:shanuellandoh@gmail.com" method="post" enctype="text/plain">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
@@ -64,10 +109,8 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2026 Shanuella. All rights reserved.</p>
+            <p>&copy; 2026 Shanuella Ndoh — Software Engineer Intern</p>
         </div>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
